@@ -6,6 +6,7 @@
 
 .searchInput {
   width: 100%;
+  max-width: 340px;
   height: 24px;
 
   border: 2px solid #a99aff;
@@ -15,16 +16,10 @@
   border-radius: 8px;
   padding: 0 10px;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .searchInput:hover,
 .searchInput:focus {
   border-color: #7163c4;
-}
-
-@media screen and (min-width: 375px) {
-  .searchInput {
-    width: 340px;
-  }
 }

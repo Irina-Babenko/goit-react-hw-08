@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   max-width: 215px;
   overflow: hidden;
@@ -57,13 +57,3 @@
   justify-content: space-between;
   align-items: center;
 }
-
-/* @media screen and (min-width: 768px) {
-  .contactItem {
-    font-size: 18px;
-  }
-
-  .contactBtn {
-    font-size: 18px;
-  }
-} */

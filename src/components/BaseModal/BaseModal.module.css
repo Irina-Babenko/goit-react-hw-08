@@ -6,9 +6,6 @@
   cursor: pointer;
 }
 
-/* @media screen and (min-width: 768px) {
-  .modalBtn {
-    height: 40px;
-    font-size: 18px;
-  }
-} */
+.title {
+  text-align: center;
+}
