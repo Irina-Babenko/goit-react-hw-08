@@ -1,0 +1,12 @@
+.container {
+  max-width: 1920px;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  background-image: url("/src/assets/abstrakt-bg.jpg");
+  background-repeat: no-repeat;
+
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}

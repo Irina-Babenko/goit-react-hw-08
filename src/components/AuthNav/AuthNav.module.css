@@ -1,0 +1,17 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  transition: color 250ms linear;
+}
+
+.link:hover,
+.link:focus {
+  color: #4b34ca;
+}
+
+.active {
+  color: #4b34ca;
+}

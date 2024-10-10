@@ -1,0 +1,72 @@
+.formContainer {
+  padding: 10px;
+
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.formWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput {
+  height: 28px;
+
+  border: 2px solid #a99aff;
+  transition: border-color 250ms linear;
+
+  outline: none;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.searchInput:hover,
+.searchInput:focus {
+  border-color: #7163c4;
+}
+
+.formError {
+  color: #3e308f;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.formBtn {
+  align-self: center;
+  padding: 5px 15px;
+}
+
+/* .formBtn {
+  align-self: center;
+  width: 80px;
+  border: 2px solid rgb(134, 134, 134);
+  transition: background-color 250ms linear, border-color 250ms linear;
+} */
+
+/* .formBtn:hover.editBtn,
+.formBtn:focus.editBtn {
+  background-color: yellow;
+  border-color: rgb(0, 0, 0);
+}
+
+.formBtn:hover.addBtn,
+.formBtn:focus.addBtn {
+  background-color: rgb(0 255 55);
+  border-color: rgb(0, 0, 0);
+} */
+
+/* @media screen and (min-width: 768px) {
+  .formBtn {
+    width: 140px;
+    font-size: 18px;
+  }
+} */
